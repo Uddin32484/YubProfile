@@ -1,0 +1,91 @@
+.Header{
+ background-image: url("https://th.bing.com/th/id/OIP.NwXq2aBpsUKXene2iAb81AHaFj?w=243&h=182&c=7&o=5&dpr=1.75&pid=1.7");  
+  /* background-color:#eaeaea;   */
+/* background-color: white; */
+color:#4c90d9;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.Header-logo>img{
+width: 150px;
+height: 65px;
+
+
+
+
+
+}
+.fa-home{
+margin-left: 16px;
+ 
+}
+.Header-optionAddress{
+margin-left: 30px;
+font-size: 20px;
+
+}
+.Header-searchInput{
+border: none;
+
+}
+.Header-option{
+display: flex;
+flex-direction: column;
+padding: 9px;
+}
+.Header-optionLineOne{
+color: #2ACA3E;
+}
+.Header-optionLineTwo{
+/* font-weight: bold; */
+color:  #FC6058;
+}
+.Header-optionLinethree{
+color:  #FEC02F;
+
+}
+
+.Header-search{
+flex-grow: 1;
+display: flex;
+height: 40;
+border-radius: 4px;
+}
+.Header-searchIconContainer{
+width: 45px;
+background-color: #febd69;
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Header-search Input{
+width: 100%;
+border: none;
+font-size: 15px;
+
+}
+.Header-search:focus-within{
+box-shadow: 0 0 0 3px #f90;
+}
+.Header-navItem{
+display: flex;
+flex-direction: row;
+margin-left: 10px;
+}
+.Header-optionCart{
+display: flex;
+align-items: center;
+padding: 9px;
+
+}
+.Header-cartCount{
+font-weight: bold;
+color: red;
+padding-left: 4px;
+}
+
+

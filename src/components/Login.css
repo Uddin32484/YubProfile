@@ -1,0 +1,273 @@
+
+
+.main2{
+ background-image: url("https://th.bing.com/th/id/OIP.NwXq2aBpsUKXene2iAb81AHaFj?w=243&h=182&c=7&o=5&dpr=1.75&pid=1.7");
+     background-size:cover;
+     background-repeat: no-repeat;
+
+}
+
+.main2 h4{
+
+color:#2ACA3E;
+margin-top: 7px;
+margin-left: 30px;
+
+}
+.s1{
+background-color: var(--secondaryColor);
+border-bottom:1px solid var(--borderColor);
+ overflow: auto;
+}
+.main-container{
+width: 1000px;
+margin: auto;
+}
+
+
+
+
+
+
+.image{
+        background-image: url('https://th.bing.com/th/id/OIP.NwXq2aBpsUKXene2iAb81AHaFj?w=243&h=182&c=7&o=5&dpr=1.75&pid=1.7');
+       
+        background-size: cover;
+       background-position: center;
+    }
+.image::after{
+position: absolute;
+contain: '';
+top:0;
+left: 0;
+height: 100%;
+width: 100%;
+background:rgba(0,0,0,7);
+
+    }
+.contain{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 999;
+width:400px;
+height:350px;
+text-align: center;
+padding: 60px,32px;
+background:rgba(255,255,255,0.04);
+box-shadow:-1px 4px 28px 0px rgba(0,0,0,7);
+
+
+    }
+
+.contain header{
+   
+    
+    font-size:22px;
+    font-weight: 600;
+    margin:0 0 35px 0;
+    font-family:'Montserrat', sans-serif;
+
+    }
+    .field{
+  position: relative;
+  height:55%;
+  width:100%;
+  display:flex;
+  background:rgba(255,255,255,0.94);
+    }
+    .field span{
+
+    color:#222;
+    width: 40px;
+    line-height: 45px;
+
+    }
+
+    .field input{
+   height:35px;
+   width: 100%;
+   background: transparent;
+   border:4px salmon;
+   outline: none;
+   color: #222;
+   font-size: 22px;
+   font-family: 'Poppins',sans-serif;
+    }
+    .space{
+    margin-top: 16px;
+
+    }
+
+    .pass{
+ text-align: left;
+ margin: 10px 0; 
+    }
+     .pass a{
+     color:white;
+     font-family: 'Poppins',sans-serif;
+     text-decoration: none;
+
+    }
+    input[type="submit"]{
+        background:  #FC6058;
+          color:black;
+         height: 40px;
+         border: 1px solid #2691d9;
+         font-size: 18px;
+         letter-spacing: 1px;
+         cursor: pointer;
+         font-family: 'Montserrat' sans-serif;
+    }
+    .login{
+    /*  background-color: #FEC02F;
+     height: 35px;
+    color:black; */
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+
+    }
+
+    .link{
+        display:flex;
+       
+        cursor: pointer;
+        color: white;
+        margin: 0 0 20px 0;
+       
+    }
+    .facebook,.instagram{
+    width: 100%;
+    height: 40px;
+    line-height:45px;
+    margin-top: 5px;
+
+    }
+    .facebook{
+        margin-left: 0px;
+        background: #4267b2;
+        border: 1px solid #3e61a8;
+    }
+    .instagram{
+        background: #e1306c;
+        border: 1px solid #df2060;
+    }
+
+
+
+
+.corner{
+width:3px;
+height: 3px;
+border-radius: 20%;
+border:1.8px solid #17a2b8;
+padding: 10px;
+position: absolute;
+}
+
+#corner-tl{
+top:-5px;
+left:-5px;
+background-color:  #FC6058;
+}
+#corner-tr{
+top:-5px;
+right:-5px;
+background-color:  #FEC02F;
+}
+#corner-br{
+bottom:-5px;
+right:-5px;
+background-color:  #2ACA3E;
+
+}
+#corner-bl{
+bottom:-5px;
+left:-5px;
+background-color: #fff;
+}
+.browser-dot{
+	background-color: black;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	margin: 5px;
+
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+}
+
+.browser-dot1{
+	background-color: black;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin: 5px;
+
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+}
+
+.contain header{
+color: #FC6058;
+
+}
+.dots-wrapper3{
+display: flex;
+justify-content: center;
+
+}
+/* post card */
+.post-wrapper{
+ 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 320px);
+	gap:20px;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.thumbnail{
+display: inline;
+width: 100%;
+height: 180px;
+object-fit: cover;
+}
+.post{
+ height: 450px;
+border: 1px solid var(--borderColor);
+
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+
+}
+
+.post-preview{
+background-color: #fff;
+padding: 15px;
+}
+.post-title h1{
+ color: black; 
+
+margin: 0;
+}
+.post-intro{
+color: #4b5156;
+font-size: 16px;
+}
+
+@media screen and (max-width: 1200px){
+	.main-container{
+		width: 95%;
+	}
+}
+
+
+
+
