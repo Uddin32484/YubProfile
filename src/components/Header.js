@@ -35,9 +35,11 @@ function Header() {
 
          
         <div className="Header-navItem">
+       <Link to="/projects">
         <div className="Header-option">
          <span className="Header-optionLineTwo">Projects</span>
         </div>
+        </Link>
         <Link to="/skills">
           <div className="Header-option">
          <span className="Header-optionLineOne">Skills</span>
@@ -53,13 +55,17 @@ function Header() {
         <span className="Header-optionLineTwo">Education</span>
         </div>
        </Link>
+        <Link to="/resume">
          <div className="Header-option">
        <span className="Header-optionLinethree">Resume</span>
         </div>
+        </Link>
+         <Link to="/contact">
          <div className="Header-option">
          <span className="Header-optionLineOne">Contact</span>
           
         </div>
+        </Link>
         <Link to="/">
          <div className="Header-option">
          <span className="Header-optionLineOne"> <i className="fa fa-home" aria-hidden="true">  </i></span>

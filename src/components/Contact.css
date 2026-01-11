@@ -1,0 +1,36 @@
+.contact-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.contact-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+.contact-row {
+  display: grid;
+  grid-template-columns: 120px 1fr; /* label | value */
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-weight: 600;
+  text-align: left;
+}
+.value {
+  text-align: left;
+  color: #1f2933;
+}
+
+.value a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.value a:hover {
+  text-decoration: underline;
+}

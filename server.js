@@ -1,13 +1,19 @@
-const exp = require('express');
+
+const express = require('express');
 const path = require('path');
-const app = exp();
+const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(exp.static(path.join(__dirname, 'build')));
+// Serve static files from the React build folder
+app.use(express.static(path.join(__dirname, 'build')));
+
+// ✅ Catch-all route to handle React Router paths
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
+// Start the server
 app.listen(PORT, () => {
-  console.log(`app connected to port ${PORT}`);
+  console.log(`App running on port ${PORT}`);
 });
+

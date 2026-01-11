@@ -13,22 +13,14 @@ function Main() {
         <div className="intro-wrapper">
              <div className="nav-wrapper">
                 <div className="dots-wrapper">
-                     <div id="dot-1" className="browser-dot"></div>
-                      <div id="dot-2" className="browser-dot"></div>
-                        <div id="dot-3" className="browser-dot"></div>
+                   
                 </div>
                       <div className="dots-wrapper">
-                     <div id="dot-1" className="browser-dot"></div>
-                      <div id="dot-2" className="browser-dot"></div>
-                        <div id="dot-3" className="browser-dot"></div>
+                 
                 </div>
                    <ul className="navigation">
                     <li><a href="#"></a></li>
-                      <div className="dots-wrapper">
-                     <div id="dot-1" className="browser-dot"></div>
-                      <div id="dot-2" className="browser-dot"></div>
-                        <div id="dot-3" className="browser-dot"></div>
-                      </div>
+                     
                   
                  
                 </ul>
@@ -36,8 +28,8 @@ function Main() {
                 <div className="left-column">
                
                {/*   <img  id ="profile_pic" src="/assets/images/line/Yubprofile2.jpg" alt="" /> */}
-                  <img id="profile_pic" src ="https://elasticbeanstalk-us-east-2-051463227781.s3.us-east-2.amazonaws.com/Yubprofile2+(2).jpg" alt="" />
-                 <p id="personal_Theme">Sr Software Engineer</p>
+                  <img id="profile_pic" src ="https://drive.google.com/file/d/1Y7cGDLKopjZtsTJRBKkERGdmKNxj4tB8/view" alt="" />
+                 <p id="personal_Theme" style={{color:'Yellow'}}>Sr Software Engineer(SDET)</p>
 
 
                     <div className="theme-option-wrapper">
@@ -50,7 +42,7 @@ function Main() {
                         
                </div>
                   <div className="right-column">
-                     <h3> What I Do</h3>
+                     <h3> WHO AM I ?</h3>
                   <div id="preview_shadow">
                           
                     <div id="preview">
@@ -58,10 +50,10 @@ function Main() {
                        <div  id="corner-tr" className="corner"></div>
                       <ul className="previewul">
                       <li>
-                         <p>A passionate software engineer specialisted in forntend and backend developement for complex and scalable enterprise retail web app.</p>
+                         <p>Senior Software Development Engineer in Test (SDET) with 13+ years of experience in designing scalable automation frameworks across Telecom, Finance, Retail, and Healthcare. Proven ability to cut manual testing by 85% and speed release cycles by 60% in Agile/DevOps environments. Skilled in UI, API, and backend automation using Selenium, Cypress, Playwright, and more. Expert in CI/CD integration with Jenkins, GitHub Actions, AWS, and Azure DevOps. Specialized in AI-driven quality engineering, including RAG testing and LLM/ML model validation using OpenAI and Hugging Face.</p>
                       </li>
                        <li>
-                       <p>A passionate RPA Developer in Test Automation.</p>
+                       <p style={{color:'yellow'}}>A passionate Automation Developer in Test .</p>
                       </li>
                       </ul>
                      
@@ -138,7 +130,7 @@ function Main() {
         </div> */}
 
           
-
+<Link to="/Projects">
 <div class="card1">
 
     <div class="image">
@@ -153,7 +145,7 @@ Projects</h1>
 <button>Read More...</button>
 </div>
 </div>
-
+</Link>
 
 <Link to="/skills">
 <div class="card2">
@@ -204,7 +196,7 @@ Photos</h1>
 <button>Read More...</button>
 </div>
 </div>
-
+<Link to="/resume">
 <div class="card5">
 
     <div class="image">
@@ -219,7 +211,7 @@ Photos</h1>
 <button>Read More...</button>
 </div>
 </div>
-
+</Link>
 
         </div>
     )

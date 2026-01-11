@@ -3,10 +3,12 @@ import './App.css';
 import Education from "./components/Education";
 import Header from "./components/Header";
 import Jobs from "./components/Jobs";
-import Login from "./components/Login";
 import Logo from "./components/Logo";
 import Main from "./components/Main";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -30,8 +32,14 @@ function App() {
          <Route  path="/educations">
             <Education/>
           </Route>
-         <Route  path="/login">
-            <Login/>
+         <Route  path="/projects">
+             <Projects/>
+          </Route>
+           <Route  path="/resume">
+            <Resume/>
+          </Route>
+            <Route  path="/contact">
+            <Contact/>
           </Route>
         </Switch>
       </div>
