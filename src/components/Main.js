@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Main.css';
+import myPhoto from '../components/assets/yub.jpeg'
 
 
 function Main() {
@@ -27,8 +28,10 @@ function Main() {
              </div>
                 <div className="left-column">
                
-               {/*   <img  id ="profile_pic" src="/assets/images/line/Yubprofile2.jpg" alt="" /> */}
-                  <img id="profile_pic" src ="https://drive.google.com/file/d/1Y7cGDLKopjZtsTJRBKkERGdmKNxj4tB8/view" alt="" />
+                 <img  id ="profile_pic" src="/assets/images/line/Yubprofile2.jpg" alt="" />
+               {/* <img src="../components/assets/yub.jpeg" aria-hidden alt="Picture of me taking a photo of an image" /> */}
+               
+                 
                  <p id="personal_Theme" style={{color:'Yellow'}}>Sr Software Engineer(SDET)</p>
 
 
