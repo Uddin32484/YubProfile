@@ -74,7 +74,7 @@ function Jobs() {
                               <h4>Sprint Corporation</h4><br></br>
                                  <h6>Role: Sr Software Automation Engineer (SDET) </h6><br></br>
                                 <h5>Project description:</h5><br></br>
-                                <p>Sprint Corporation is an American telecommunications company that provides wireless services and is an internet service provider. Sprint use Retail management System (RMS) web and Client application to provide tele and internet service to Client.</p>
+                                <p style={{color: 'white', fontFamily: 'roman'}}>Sprint Corporation is an American telecommunications company that provides wireless services and is an internet service provider. Sprint use Retail management System (RMS) web and Client application to provide tele and internet service to Client.</p>
                          <div className="dots-wrapper1">
                              <div id="dot-1" className="browser-dot1"></div>
                                  <div id="dot-2" className="browser-dot1"></div>

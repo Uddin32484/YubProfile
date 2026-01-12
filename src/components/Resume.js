@@ -1,5 +1,7 @@
 
 import React from 'react';
+import './Resume.css';
+
 
 function Resume() {
     return (
@@ -12,23 +14,27 @@ function Resume() {
   >
     <button>View Resume</button>
   </a>
-   <h2>My Resume</h2>
+   <h2>My LinkedIn</h2>
   <a
-    href="www.linkedin.com/in/yub32484"
+    href="https://www.linkedin.com/in/yub32484/"
 
     target="_blank"
     rel="noopener noreferrer"
   >
-    <button>View Resume</button>
+    <button>View LinkedIn</button>
   </a>
-   <h2>My LinkedIn</h2>
+   <h2>My GitHub</h2>
   <a
     href="https://github.com/Uddin32484?tab=repositories"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <button>View GitRepo</button>
+    <button>View GitHub</button>
+
+   
   </a>
+
+  <a href="/contact" class="info-button">Further Information – Click Here</a>
 </div>
 
     );

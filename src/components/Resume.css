@@ -1,0 +1,24 @@
+
+/* Make the whole page a flex container to center the button */
+
+
+/* Style the button */
+.info-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px; /* Bigger size */
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px; /* Larger text */
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.info-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}

@@ -37,22 +37,24 @@ function Skills() {
                           {/*    Object begin */}
                            <h5> Programming - Languages</h5>
                             <ul class="objectul">
-                             <li>C++</li>
                              <li>Java</li>
-                            <li>Javascript</li>
-                              <li>Python</li>
-                            <li>Typescript</li>
+                               <li>Python</li>
+                                  <li>C#</li>
+                             <li>Javascript</li>
+                             <li>Typescript</li>
                              <li>Node js</li>
                                <li>Swift</li>
+                             
                              
                             </ul>
                             <h5>Databases</h5>
                              <ul>
-                                <li>Firebase</li>
-                                <li>Oracle</li>
-                                <li>MongoDB</li>
-                                 <li>MySQL</li>
+                               <li>Oracle</li>
+                               <li>MongoDB</li>
+                                  <li>MySQL</li>
+                                  <li>PostgreSQL</li>
                                  <li>SQLite</li>
+                                 <li>Firebase</li>
                                  </ul>
                                   <h5>Web Frameworks</h5>
                             <ul> 
@@ -85,13 +87,14 @@ function Skills() {
                                 <li>DataDriven</li>
                                 <li>Keyword Driven</li>
                                 <li>Hybrid Driven </li>
+                                  <li>Page Object Model(POM) </li>
                                   <li>Behavior Driven Development(BDD)</li>
                                  </ul>
                                  <h5>Ui Testing Tools</h5>
                                   <ul>
                                 <li>Selenium WebDriver </li>
+                                  <li>Playwright </li>
                                 <li> WebDriver IO</li>
-                                <li>Playwright </li>
                                   <li>UFT | UiPath</li>
                                      <li>Tosca| Cypress</li>
                                        <li>XCUITest | Appium</li>
@@ -101,7 +104,6 @@ function Skills() {
                              <li>Maven</li>
                             <li>Katalon Studio</li>
                             <li>Automation Anywhere</li>
-                            <li>UiPath</li>
                             <li>Eggplant Functional</li>
                              <li>Litmus</li>
                                  
@@ -134,7 +136,7 @@ function Skills() {
                               </ul>
                                 <h4>VCS</h4>
                            <ul> 
-                          <li>Git</li> <li>Github</li> 
+                        <li>Github</li> 
                          <li>Gitlab</li>
                         <li>GitBucket</li>
                           </ul>
@@ -143,6 +145,7 @@ function Skills() {
                            <h4>CI/CD</h4>
                            <ul> 
                           <li>Jenkins</li> 
+                          <li>GitHub Action</li> 
                            <li>Circle CI</li> 
                          <li>Travis CI</li>
                          <li>Docker</li>
@@ -270,6 +273,10 @@ function Skills() {
                               </div> 
                           {/*    Object begin */}
                             <h4>Cloud Technologies</h4>
+                            <ul>
+                          <li>AWS (EC2, S3, Lambda, RDS)</li>
+                           <li>Azure</li>
+                            </ul>
                             {/*  Object End */}
                          <div className="dots-wrapper1">
                              <div id="dot-1" className="browser-dot1"></div>
